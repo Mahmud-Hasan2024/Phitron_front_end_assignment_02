@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const fetchRandomDrinks = async () => {
     const randomDrinks = [];
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 9; i++) {
       const response = await fetch(
         "https://www.thecocktaildb.com/api/json/v1/1/random.php"
       );
