@@ -60,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      // Details button
       const detailsBtn = div.querySelector(".details-btn");
       detailsBtn.addEventListener("click", () => {
         alert(
@@ -86,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const fetchRandomDrinks = async () => {
     const randomDrinks = [];
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 7; i++) {
       const response = await fetch(
         "https://www.thecocktaildb.com/api/json/v1/1/random.php"
       );
